@@ -1,0 +1,54 @@
+/* div{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(138, 77, 34);
+    color: rgb(105, 105, 54);
+    text-align: center;
+    font-size: 24px;
+    margin: 20px;
+    transition-duration: 1s;
+}
+.translate{
+    transform: translate(0,0);
+}
+.translate:hover{
+background-color: blanchedalmond;
+transform: translateX(90px);
+}
+.scale{
+    transform: scale(1,1);
+}
+.scale:hover{
+    transform: scale(90,-3);
+}
+.rotate{
+    transform: rotate(0deg);
+}
+.rotate:hover{
+    transform: rotate(-600-deg);
+    border-radius: 190%;
+}
+.skew;{
+    transform:skew(0deg)
+}
+.skew:hover{
+    transform: skew(35deg,79deg);
+} */
+
+
+
+
+.main{
+    display: flex;
+    justify-content: space-evenly;
+}
+.main div{
+    width: 100px;
+    height: 100px;
+    background-color: burlywood;
+}
+.second_div{
+    position: relative;
+    top: 40px;
+    left: 40px;
+}
